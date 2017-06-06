@@ -12,12 +12,14 @@ The goal is to create a Rails API and an Emberjs frontend app for basic product 
 *Resources*
 * Product: CRUD, pagination
 * Item: CRUD, pagination
+* Status: stocked, sold, dispatched
 
 **Hints**
 * **Test Framework:** [RSpec](http://rspec.info/)
 * **JSON format:** [JSON API](http://jsonapi.org/) ([gem](https://github.com/cerebris/jsonapi-resources))
 * Products have many items, items belong to a product
 * Items should not be creatable without an assigned product
+* gem stateful_enum - A very simple state machine plugin built on top of ActiveRecord::Enum
 
 ### Ember
 
