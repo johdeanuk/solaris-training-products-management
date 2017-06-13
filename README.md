@@ -33,3 +33,6 @@ The goal is to create a Rails API and an Emberjs frontend app for basic product 
 * Items Index
 * Item Show
 * Item New
+
+### Rails API to Ember
+
