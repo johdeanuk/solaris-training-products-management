@@ -34,5 +34,15 @@ The goal is to create a Rails API and an Emberjs frontend app for basic product 
 * Item Show
 * Item New
 
-### Rails API to Ember
+## Rails API to Ember
+### Things to remember
+
+*Rails*
+*CORS
+*In config/application.rb ('Access-Control=Allow-Origin => *')
+*Do not leave as wildcard for deployment
+
+*Ember*
+*Custom host 'adapters/application.js' (http://localhost:3000)
+
 
