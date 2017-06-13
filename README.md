@@ -38,11 +38,11 @@ The goal is to create a Rails API and an Emberjs frontend app for basic product 
 ### Things to remember
 
 *Rails*
-*CORS
-*In config/application.rb ('Access-Control=Allow-Origin => *')
-*Do not leave as wildcard for deployment
+* CORS
+* In config/application.rb ('Access-Control=Allow-Origin => *')
+* Do not leave as wildcard for deployment
 
 *Ember*
-*Custom host 'adapters/application.js' (http://localhost:3000)
+* Custom host 'adapters/application.js' (http://localhost:3000)
 
 
